@@ -1,0 +1,132 @@
+@font-face {
+    font-family: NanumSquareWeb;
+    src: local(NanumSquareR),
+         local(NanumSquare),
+         url(NanumSquareR.eot?#iefix) format('embedded-opentype'),
+         url(NanumSquareR.woff) format('woff'),
+         url(NanumSquareR.ttf) format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    unicode-range: U+0-10FFFF;
+  }
+
+
+.non-headline {
+    padding-left: 150pt;
+    padding-right: 150pt;
+}
+
+.head li {
+    display: inline;
+    
+    font-weight: bold;
+
+}
+
+.head{
+    padding: 30px;
+    border-top: 0%;
+    text-align: center;
+    background-color: #DC143C
+}
+.head li{
+    margin: 5px;
+}
+.head a{
+    font-size: 13pt; text-decoration: none; color: white;
+}
+
+.head img{
+    margin: 0%;
+}
+.text {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.left-text{
+    border-right: 1px solid gray;
+    margin-left: 40pt;
+    padding-right: 30px;
+    font-size: 80%;
+}
+
+.text1 {
+    padding-left: 35px;
+    margin-bottom: 40px;
+}
+.text1 p {
+    font-family: NanumSquareWeb, sans-serif;
+}
+.inform {
+    display : grid;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-size: 13pt;
+    grid-template-columns: 250px 1fr
+    
+}
+
+.inform  a {
+    text-decoration: none; color: blueviolet; font-weight: 600;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.inform-intro {
+    border-bottom: 2px blueviolet solid;
+
+}
+
+.more a{
+    font-size: 10pt;
+    font-weight: 400 bold;
+    text-decoration: none; color: gray;
+    margin-bottom: 30px;
+    padding-left: 750px
+}
+.more {
+    border-bottom: gray 1px solid;
+
+}
+
+.image a{
+    display: inline;
+    margin-bottom: 30px;
+}
+
+.image-text {
+    display: grid;
+    grid-template-columns: 200px 200px;
+}
+
+.text2 {
+    display: inline-flex;
+    grid-template-columns: 200px 1fr;
+}
+
+.VOD iframe {
+    padding-left: 150px;
+}
+
+.image2 img{
+    width: 350px;
+
+}
+
+.image-text {
+    display: inline;
+}
+
+.image-text {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.image-text div{
+    text-align: center;
+    font-size: 10pt;
+    color: blueviolet;
+}
